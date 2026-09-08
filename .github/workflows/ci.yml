@@ -51,7 +51,7 @@ jobs:
           # Explicit head bypasses event-derived ranges, including new branches.
           base: ''
           head: HEAD
-          version: v3.97.4
+          version: '3.97.4' # Container tags omit the Git release's v prefix.
           extra_args: --results=verified,unknown --fail-on-scan-errors
 
   gitleaks:
