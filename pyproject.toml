@@ -1,0 +1,16 @@
+[project]
+name = "prompt-engineering-library"
+version = "0.1.0"
+description = "Topic-organized reusable prompts with guided workflows and an offline interactive renderer."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = ["ty>=0.0.1"]
+
+[tool.uv]
+package = false
+
+[tool.ty.src]
+include = ["scripts", "tests"]
