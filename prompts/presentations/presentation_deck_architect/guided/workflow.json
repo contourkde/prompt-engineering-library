@@ -1,0 +1,21 @@
+{
+  "title": "Guided Presentation Deck Architect",
+  "steps": [
+    {
+      "template": "steps/01_structure.md",
+      "instruction": "Answer the following questions about the presenter persona, topic, objective, and audience. Once the prompt is printed, run it in your AI chat and choose one complete Beginning/Middle/End structure. The next stage will ask you to paste that structure."
+    },
+    {
+      "template": "steps/02_hook.md",
+      "instruction": "In the following questions, paste the full chosen structure and provide hook context, including any available sources and dates. Once the prompt is printed, run it in your AI chat and choose a hook. The next stage will ask for its full wording and evidence notes."
+    },
+    {
+      "template": "steps/03_opening.md",
+      "instruction": "In the following questions, paste the full selected hook, including evidence caveats, and choose the tones for the first and third opening options. Once the prompt is printed, run it in your AI chat and choose one of the three spoken openings. The final stage will ask you to paste the selected opening."
+    },
+    {
+      "template": "steps/04_slides.md",
+      "instruction": "In the following questions, paste the selected opening and provide the factual relevance period, separate presentation duration, fast-changing subtopic, and dated current context. Your chosen structure and hook will be reused. Once the final prompt is printed, run it in your AI chat and review the slides, timing, and unresolved claims. The renderer exits without a final pause."
+    }
+  ]
+}

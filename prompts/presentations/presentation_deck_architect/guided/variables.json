@@ -1,0 +1,72 @@
+{
+  "persona": {
+    "question": "What presenter role, expertise, and perspective should the presentation use?",
+    "required": true,
+    "multiline": true
+  },
+  "topic": {
+    "question": "What is the presentation topic and scope?",
+    "required": true,
+    "multiline": true
+  },
+  "objective": {
+    "question": "What should the audience understand or do after the presentation?",
+    "required": true,
+    "multiline": true
+  },
+  "audience": {
+    "question": "Who is the audience, and what are their knowledge level and concerns?",
+    "required": true,
+    "multiline": true
+  },
+  "chosen_structure": {
+    "question": "Paste the full chosen Beginning/Middle/End structure, including its narrative rationale.",
+    "required": true,
+    "multiline": true
+  },
+  "hook_context": {
+    "question": "What scenario, constraints, and source/date information should shape the hooks?",
+    "required": true,
+    "default": "No verified supporting evidence is available. Use a clearly hypothetical, nonnumeric hook.",
+    "multiline": true
+  },
+  "selected_hook": {
+    "question": "Paste the full selected hook and any source/date information or UNVERIFIED caveats.",
+    "required": true,
+    "multiline": true
+  },
+  "tone_start": {
+    "question": "What tone should the first opening option use?",
+    "required": true,
+    "default": "Curious and empathetic"
+  },
+  "tone_end": {
+    "question": "What tone should the third opening option use?",
+    "required": true,
+    "default": "Practical and confident without overpromising"
+  },
+  "selected_opening": {
+    "question": "Paste the complete selected opening, preserving any evidence notes or caveats.",
+    "required": true,
+    "multiline": true
+  },
+  "timeframe": {
+    "question": "What factual relevance period should the presentation cover, such as Q3 2026? This is not the talk duration.",
+    "required": true
+  },
+  "presentation_duration": {
+    "question": "How long is the presentation, and how much time should be reserved for Q&A?",
+    "required": true,
+    "default": "20 minutes total, including 5 minutes for Q&A"
+  },
+  "fast_changing_subtopic": {
+    "question": "Which subtopic needs current evidence because it changes quickly, or enter None?",
+    "required": true,
+    "multiline": true
+  },
+  "current_context": {
+    "question": "Provide the intended delivery date, relevant product versions, and current sources with dates and excerpts. State explicitly when evidence is unavailable.",
+    "required": true,
+    "multiline": true
+  }
+}

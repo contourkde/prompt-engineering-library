@@ -1,0 +1,9 @@
+.env
+.env.*
+/personal_scripts/
+/generated/
+.venv/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
